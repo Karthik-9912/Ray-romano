@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.dot{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    z-index: 9999;
+}
+.dot a{
+    text-decoration: none;
+    color: black;
+    /* overflow: hidden; */
+    border-radius: 50%;
+
+}
+.dot-div{
+    height: 11.2px;
+    width: 11.2px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: black;
+
+}
+.dot a:hover {
+    background-color: black;
+    color: white;
+    overflow: visible;
+}
+
+#sec1{
+    height: 100vh;
+    background-image: url(./imgi_36_Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+}
+nav{
+    height: 153px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+nav ul>li{
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #1a1a1a;
+    font-weight: 550;
+    letter-spacing: 1.3px;
+}
+main{
+    margin-left: 6%;
+    margin-top:6%;
+}
+main h1{
+    width: 703px;
+    color: #171717;
+    font-size: 39.2px;
+    text-transform: uppercase;
+    background-color: #ffffff99;
+    font-weight: 100;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    padding: 15px 20px;
+}
+main p{
+    width: 884px;
+    color: #171717;
+    font-size: 16.8px;
+    background-color: #ffffff99;
+    margin-top: 25px;
+    padding: 15px 20px;
+    letter-spacing: 1px;
+}
+main>div:last-child{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#scroll{
+    height: 30px;
+    width: 150px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* color: white; */
+}
+#main-icon{
+    /* border: 2px solid; */
+    height: 32px;
+    width: 130px;
+    text-align: center;
+    /* overflow: hidden; */
+}
+#main-icon>i{
+    font-size: 32px;
+    /* color: white; */
+}
+/* #main-icon:hover{ */
+    /* display: none;
+    overflow: visible; */
+/* } */
+/* #main-icon>i:hover{ */
+    /* overflow: visible; */
+/* } */
+
+#sec2{
+    height: 386px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec2>div{
+    width: 960px;
+}
+#sec2 h1{
+    text-transform: uppercase;
+    color: #16161d;
+    font-size: 28px;
+    margin: 0 0 15px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+#sec2 p{
+    font-size: 16px;
+    color: #363636;
+    line-height: 1.5;
+}
+#sec3{
+    height: 100vh;
+    background-image: url(./imgi_37_Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#sec3 h1{
+    width: 884px;
+    color: #171717;
+    font-size: 39.2px;
+    text-transform: uppercase;
+    background-color: #ffffff99;
+    font-weight: 100;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    padding: 15px 20px;
+}
+#sec3 div{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+#sec4{
+    height: 386px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec4 div{
+    width: 960px;
+}
+#sec4 h2{
+    text-transform: uppercase;
+    color: #16161d;
+    font-size: 19.6px;
+    margin: 0 0 15px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+#sec4 p{
+    font-size: 15px;
+    color: #363636;
+    line-height: 1.7;
+}
+#sec5{
+    height: 100vh;
+    background-image: url(./imgi_38_Ray+Romano+Hamptons+Sag+Harbor+renovation.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#sec5 h1{
+    width: 270px;
+    color: #171717;
+    font-size: 39.2px;
+    text-transform: uppercase;
+    background-color: #ffffff99;
+    font-weight: 100;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    padding: 15px 20px;
+}
+#sec5 div{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+#sec6{
+    height: 386px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec6 div{
+    width: 960px;
+}
+#sec6 h2{
+    text-transform: uppercase;
+    color: #16161d;
+    font-size: 19.6px;
+    margin: 0 0 15px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+#sec6 p{
+    font-size: 15px;
+    color: #363636;
+    line-height: 1.7;
+}
+
+#sec7{
+    height: 100vh;
+    background-image: url(./imgi_39_1040.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#sec7 h1{
+    width: 370px;
+    color: #171717;
+    font-size: 39.2px;
+    text-transform: uppercase;
+    background-color: #ffffff99;
+    font-weight: 100;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    padding: 15px 20px;
+}
+#sec7 div{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+#sec8{
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec8 h2{
+    text-transform: uppercase;
+    color: #16161d;
+    font-size: 19.6px;
+    margin: 15px 0 15px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    width: 960px;
+}
+#sec8 p{
+    font-size: 15px;
+    color: #363636;
+    line-height: 1.5;
+    width: 960px;
+}
+#sec9{
+    height: 100vh;
+    background-image: url(./imgi_40_Custom+Closet+Ray+Rompano+Contracting+NYC+Brooklyn+Upper+east+Side+NYC+renovation.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#sec9 h1{
+    width: 250px;
+    color: #171717;
+    font-size: 39.2px;
+    text-transform: uppercase;
+    background-color: #ffffff99;
+    font-weight: 100;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    padding: 15px 20px;
+}
+#sec9 div{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+#sec10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+#sec10>div{
+    /* border: 2px solid; */
+    height: 829px;
+    width: 994px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px
+    ;
+}
+#sec10 p{
+    font-size: 11px;
+}
